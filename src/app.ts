@@ -1,4 +1,5 @@
-import express, { Application } from 'express'
+import express, { Application } from 'express';
+import redisClient from 'redis';
 
 const app: Application = express();
 
